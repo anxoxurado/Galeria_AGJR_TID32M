@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+
+body {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background-color: rgb(212, 248, 255);
+	margin-top: 25px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1cm;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+}
+
+#iconos {
+    margin: 10px;
+    
+}
+
+.inicio {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#imagen_inicio {
+    border-radius: 1cm;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1%;
+
+}
+
+.final_page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+	background: #0028A8;
+	border-style: solid;
+}
+
+ul {
+    list-style-type: none;
+}
+
+  
+#imagen_contenedor {
+    border-radius: 1cm;
+}
+
+.autor {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
