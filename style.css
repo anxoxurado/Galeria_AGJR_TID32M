@@ -20,11 +20,18 @@ body {
 .iconos {
     display: flex;
     flex-direction: row;
+    margin: 10px;
 }
 
-#iconos {
-    margin: 10px;
-    
+.imagen_galeria {
+    filter: grayscale();
+    border-radius: 10px;
+}
+
+.imagen_galeria:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
 }
 
 .inicio {
@@ -33,6 +40,7 @@ body {
     text-align: justify;
     justify-content: space-around;
     flex-wrap: wrap;
+    overflow-wrap: normal;
 }
 
 #imagen_inicio {
@@ -46,19 +54,24 @@ body {
     border-radius: 10px;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 1%;
+    padding: 2%;
+}
 
+.contenedor img {
+    transition: transform 0.2s ease-out;
 }
 
 .final_page {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: space-between;
+    justify-content:space-between;
+    align-items: center;
     flex-wrap: wrap;
     text-align: center;
 	background: #0028A8;
 	border-style: solid;
+    padding-left: 2cm;
+    padding-right: 2cm;
 }
 
 ul {
@@ -74,5 +87,6 @@ ul {
     display: flex;
     flex-direction: column;
     align-items:center;
+    
 }
 
