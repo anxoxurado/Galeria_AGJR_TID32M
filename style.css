@@ -15,12 +15,20 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 1cm;
+    background: #0028A8;
+	border-style: solid;
+    padding-left: 2cm;
+    padding-right: 2cm;
 }
 
 .iconos {
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    align-items: center;
+}
+
+.iconos img {
+    margin: 10px
 }
 
 .imagen_galeria {
@@ -39,11 +47,11 @@ body {
     flex-direction: row;
     text-align: justify;
     justify-content: space-around;
-    flex-wrap: wrap;
-    overflow-wrap: normal;
+    margin: 1cm;
 }
 
 #imagen_inicio {
+    margin-left: 2%;
     border-radius: 1cm;
 }
 
