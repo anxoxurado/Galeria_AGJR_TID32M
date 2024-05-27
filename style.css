@@ -34,6 +34,8 @@ body {
 .imagen_galeria {
     filter: grayscale();
     border-radius: 10px;
+    margin: 0.5cm;
+    width: 350px;
 }
 
 .imagen_galeria:hover {
@@ -84,11 +86,6 @@ body {
 
 ul {
     list-style-type: none;
-}
-
-  
-#imagen_contenedor {
-    border-radius: 1cm;
 }
 
 .autor {
